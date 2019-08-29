@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2">
+    <TableRow android:background="@color/colorAccent">
+        <TextView
+            android:id="@+id/item_title_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/item_lista_title_dia"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"/>
+        <TextView
+            android:id="@+id/item_title_nomeMat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/item_lista_title_materia"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"/>
+        <TextView
+            android:id="@+id/item_title_sala"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:text="@string/item_lista_title_sala"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"/>
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.activity.ResumoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_resume_nomeDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text=""
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/activity_resume_txtEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/act_resu_editar"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/activity_resume_nomeDia_edit"
+        android:inputType="textCapWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/act_Resu_nome" />
+
+    <EditText
+        android:id="@+id/activity_resume_nomeMateria_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:layout_margin="8dp"
+        android:hint="@string/act_resu_materia"/>
+
+    <EditText
+        android:id="@+id/activity_resume_sala_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:layout_margin="8dp"
+        android:hint="@string/act_resu_sala"/>
+
+    <Button
+        android:id="@+id/activity_resume_btnSalvar_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/act_resu_salva"/>
+
+</LinearLayout>
+</ScrollView>

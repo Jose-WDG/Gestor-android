@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gestor de aulas</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome">Nome</string>
+    <string name="form_nome_mat_hint">Matéria</string>
+    <string name="form_sala_hint">Sala</string>
+    <string name="form_icon_salvar">Salvar</string>
+    <string name="act_li_dia_menu_remover">Remover</string>
+    <string name="act_resu_editar">Editar</string>
+    <string name="act_resu_materia">Matéria</string>
+    <string name="act_resu_sala">Sala</string>
+    <string name="act_resu_salva">Salvar</string>
+    <string name="act_Resu_nome">Nome</string>
+    <string name="item_lista_title_dia">Dia</string>
+    <string name="item_lista_title_materia">Matéria</string>
+    <string name="item_lista_title_sala">Sala</string>
+</resources>

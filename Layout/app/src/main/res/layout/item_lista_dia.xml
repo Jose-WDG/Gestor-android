@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2">
+
+       <TableRow android:layout_margin="12dp">
+
+           <TextView
+               android:id="@+id/item_dia_nome"
+               android:layout_width="143dp"
+               android:layout_height="wrap_content"
+               android:textAlignment="textStart"
+               android:textSize="24sp"
+               tools:text="Segunda" />
+
+           <TextView
+               android:id="@+id/item_dia_nomeMat"
+               android:layout_width="125dp"
+               android:layout_height="wrap_content"
+               android:textAlignment="textStart"
+               android:textSize="24sp"
+               tools:text="ADS-II" />
+
+           <TextView
+               android:id="@+id/item_dia_sala"
+               android:layout_width="127sp"
+               android:layout_height="wrap_content"
+               android:textAlignment="textStart"
+               android:textSize="24sp"
+               tools:text="A203" />
+
+       </TableRow>
+
+    </TableLayout>

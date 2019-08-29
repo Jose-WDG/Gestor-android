@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.ListaDiaSemanaActivity">
+
+        <include layout="@layout/item_lista_title" />
+
+        <ListView
+            android:id="@+id/activityMainListDiasSemana"
+            android:layout_width="match_parent"
+            android:layout_height="603dp"
+            android:layout_above="@+id/activity_main_btnFloat"
+            android:layout_marginTop="24dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_main_btnFloat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_action_adiciona_dia_semana"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
